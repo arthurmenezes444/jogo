@@ -18,18 +18,18 @@
 </style>
 </head>
 <body>
-<canvas id="gameCanvas" width="1200" height="910"></canvas>
+<canvas id="gameCanvas" width="1920" height="1000"></canvas>
 
 <script>
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
     const asteroidImages = []; // Array para armazenar as imagens dos asteroides
-    const asteroidImageNames = ["a2.png", "a3.png"]; // Nomes das imagens
+    const asteroidImageNames = ["a1.png","a2.png", "a3.png"]; // Nomes das imagens
 
-    const spacecraftWidth = 50; //nave
-    const spacecraftHeight = 50;
+    const spacecraftWidth = 150; //nave
+    const spacecraftHeight = 150;
     const spacecraftSpeed = 4;
-    const asteroidRadius = 20; // asteroid
+    const asteroidRadius = 75; // asteroid
     const asteroidSpeed = 4;
     const bulletWidth = 5; // tiro
     const bulletHeight = 10;
